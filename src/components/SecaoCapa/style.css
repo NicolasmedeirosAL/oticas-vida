@@ -1,0 +1,57 @@
+#capa {
+  background-image: url('/public/assets/capa.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.caixa-da-capa {
+  padding: 70px;
+
+}
+.textos-da-capa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+.textos-da-capa h1,
+.textos-da-capa p {
+  max-width: 350px;
+}
+
+.textos-da-capa p {
+  font-size: 36px;
+  color: rgb(196, 196, 196);
+}
+
+.textos-da-capa h1 {
+  font-family: 'Anybody', sans-serif;
+  font-size: 60px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 70px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .textos-da-capa p {
+    font-size: 20px;
+  }
+  .textos-da-capa h1 {
+    font-size: 40px;
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 550px) {
+  #capa {
+    background-position: 89% center;
+  }
+  .caixa-da-capa {
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+}

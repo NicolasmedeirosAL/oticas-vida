@@ -1,0 +1,57 @@
+#contato {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 100px 20px;
+  background-color: #05031b;
+}
+
+.contatos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cartao-de-contato {
+  width: 50%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cartao-de-contato figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.cartao-de-contato img {
+  width: 18px;
+}
+.cartao-de-contato figcaption {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  #contato {
+    padding: 60px 20px;
+  }
+}
+
+@media (max-width: 550px) {
+  #contato {
+    padding: 30px 10px;
+  }
+  .contatos {
+    flex-direction: column;
+  }
+  .cartao-de-contato {
+    width: 250px;
+  }
+  .cartao-de-contato figure {
+    margin: 5px 0;
+  }
+}
