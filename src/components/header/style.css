@@ -1,5 +1,7 @@
 #topo {
   width: 100%;
+  top: 0;
+  position: fixed;
   background-color: #fff;
   box-shadow: 0 2px 5px 2px hsl(0, 0%, 70%);
 }
